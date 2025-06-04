@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Plots</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">CTU</div>
+       
+        <nav>
+           <ul class="nav-links">
+        <li><a href="/Home.html">Home</a></li>
+        <li><a href="/Login.html">Login</a></li>
+        <li><a href="/Register.html">Register</a></li>
+    
+           
+    
+    </ul> 
+        </nav>
+    </div>
+    </header>
+
+    <div class="container">
+        <h2>Add Plots</h2>
+        <form action="Plots.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="property_title" placeholder="Property Title" required><br>
+            <input type="text" name="location" placeholder="Location" required><br>
+            <input type="number" name="price" placeholder="Price" required><br>
+            <textarea name="description" placeholder="Description" required></textarea><br>
+            <input type="file" name="property_image" accept="image/*" required><br>
+            <button type="submit">Add a Plot</button>
+        </form>
+    </div>
+</body>
+</html>

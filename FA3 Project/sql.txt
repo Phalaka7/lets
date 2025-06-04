@@ -1,0 +1,29 @@
+create table registrations(
+    Id int AUTO_INCREMENT PRIMARY key not null,
+    Username varchar(50) not null,
+    Email varchar(70) not null,
+    Password varchar(100) not null
+    
+    
+    );
+
+
+create table plots(
+Id int AUTO_INCREMENT PRIMARY key,
+title varchar(50) not null,
+location varchar(50) not null,
+description varchar(40) not null,  
+price varchar(50) not null,
+image longblob
+);
+
+
+
+
+create table messages(
+    Id int AUTO_INCREMENT PRIMARY KEY not null,
+    name varchar(50)  not null,
+email varchar(100) not null,
+    messages varchar(500)
+    
+    );

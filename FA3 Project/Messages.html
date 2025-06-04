@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">CTU</div>
+       
+        <nav>
+           <ul class="nav-links">
+        <li><a href="/Home.html">Home</a></li>
+        <li><a href="/Login.html">Login</a></li>
+        <li><a href="/Register.html">Register</a></li>
+    
+           
+    
+    </ul> 
+        </nav>
+    </div>
+    </header>
+
+<div class="container">
+    <h2>Messages</h2>
+    <form action="messages.php" method="post">
+<!--         
+create table messages(
+    Id int AUTO_INCREMENT PRIMARY KEY not null,
+    name varchar(50)  not null,
+email varchar(100) not null,
+    messages varchar(500)
+    
+    ); -->
+
+
+    <label for="names">Name</label>
+    <input type="text" name="names">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email">
+    <br>
+    <label for="message">Message</label>
+    <input type="text" name="message">
+    <br>
+ 
+    <button name="textarea" type="submit">Submit</button>
+
+    </form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    
+    body{
+        background-color: white;
+        color:black ;
+        line-height: 1.5;
+    }
+
+
+    h2,h3{
+        font-family:cursive;
+
+    }
+
+    /* Forms */
+
+form{
+    background-color: wheat;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+form label{
+    display: block;
+    margin-Top: 0.4rem;
+    font-weight: 600;
+}
+
+/* changing the navbar */
+.navbar{
+    background-color: black;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+/* Styling the logo */
+.logo{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family:fantasy;
+
+}
+
+/* Styling the nav links in general */
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    /* font-weight:60px; */
+    padding: 2rem;
+    transition: 0.4s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active{
+    background-color: wheat;
+    color: black;
+    border-radius: 50%;
+}
+
+
+button{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+}
